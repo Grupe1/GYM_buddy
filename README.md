@@ -8,7 +8,7 @@ App for gym
 
 ----------------------------------------
 
-## Step 1: Install .NET MAUI
+## Step 1: Install .NET MAUI 9.0
 Download and initialize .NET MAUI using this tutorial:
 [https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro)
 
