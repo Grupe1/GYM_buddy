@@ -22,7 +22,7 @@
                HorizontalOptions="Center"/>
 
             <!-- Start Button -->
-            <Button Text="Get Started" 
+            <Button Text="Press!" 
                 FontFamily="PoppinsBold"
                 Clicked="OnStartClicked"/>
         </VerticalStackLayout>
