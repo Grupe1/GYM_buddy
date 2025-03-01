@@ -18,7 +18,7 @@
             <Label Text="Your Personal Gym Scheduler"
                FontSize="18"
                FontFamily="PoppinsRegular"
-               TextColor="{StaticResource PrimaryBlue}"
+               TextColor="{StaticResource PrimaryBlack}"
                HorizontalOptions="Center"/>
 
             <!-- Start Button -->
