@@ -4,38 +4,49 @@
              x:Class="gymBuddy.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <!-- Title -->
-            <Label Text="GYM Buddy" 
-               FontSize="32" 
-               FontFamily="PoppinsBold"
-               TextColor="{StaticResource PrimaryWhite}"
-               HorizontalOptions="Center"/>
+        <Grid VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
 
-            <!-- Description -->
-            <Label Text="Your Personal Gym Scheduler"
-               FontSize="18"
-               FontFamily="PoppinsRegular"
-               TextColor="{StaticResource PrimaryBlack}"
-               HorizontalOptions="Center"/>
+            <VerticalStackLayout Padding="30,0" Spacing="25" Grid.Row="0">
+                <Label Text="GYM Buddy" 
+                   FontSize="32" 
+                   FontFamily="PoppinsBold"
+                   TextColor="{StaticResource PrimaryWhite}"
+                   HorizontalOptions="Center"/>
 
-            <!-- Start Button -->
-            <Button Text="Hello!" 
-                FontFamily="PoppinsBold"
-                Clicked="OnStartClicked"/>
+                <Label Text="Calendar page"
+                   FontSize="18"
+                   FontFamily="PoppinsRegular"
+                   TextColor="{StaticResource PrimaryBlack}"
+                   HorizontalOptions="Center"/>
 
-            <!-- Start Button -->
-            <Button Text="Labas" 
-                FontFamily="PoppinsBold"
-                Clicked="OnStartClicked"/>
+                <Button Text="Hello!" 
+                    FontFamily="PoppinsBold"
+                    Clicked="OnStartClicked"/>
 
-            <!-- Start Button -->
-            <Button Text="triple" 
-                FontFamily="PoppinsBold"
-                Clicked="OnStartClicked"/>
-        </VerticalStackLayout>
+                <Button Text="Labas" 
+                    FontFamily="PoppinsBold"
+                    Clicked="OnStartClicked"/>
+                <Button Text="triple" 
+                    FontFamily="PoppinsBold"
+                    Clicked="OnStartClicked"/>
+            </VerticalStackLayout>
+
+            <Grid Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.6*" />
+                    <ColumnDefinition Width="0.67*" />
+                    <ColumnDefinition Width="0.4*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Gym" Grid.Column="0" Clicked="GoToGymPageClicked" CornerRadius="0"/>
+                <Button Text="Calendar" Grid.Column="1" Clicked="GoToHomePageClicked" CornerRadius="0"/>
+                <Button Text="Settings" Grid.Column="2" Clicked="GoToSettingsPage" CornerRadius="0"/>
+            </Grid>
+        </Grid>
     </ScrollView>
 
 </ContentPage>

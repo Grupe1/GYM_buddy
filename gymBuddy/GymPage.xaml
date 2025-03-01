@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gymBuddy.GymPage"
+             Title="GymPage">
+    <ScrollView>
+        <Grid VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <VerticalStackLayout Padding="30,0" Spacing="25" Grid.Row="0"/>
+            <Label 
+            Text="Gym page"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Grid Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.6*" />
+                    <ColumnDefinition Width="0.67*" />
+                    <ColumnDefinition Width="0.4*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Gym" Grid.Column="0" Clicked="GoToGymPageClicked" CornerRadius="0"/>
+                <Button Text="Calendar" Grid.Column="1" Clicked="GoToHomePageClicked" CornerRadius="0"/>
+                <Button Text="Settings" Grid.Column="2" Clicked="GoToSettingsPage" CornerRadius="0"/>
+            </Grid>
+        </Grid>
+    </ScrollView>
+</ContentPage>
