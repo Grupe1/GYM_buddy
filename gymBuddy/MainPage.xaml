@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gymBuddy.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <!-- Title -->
+            <Label Text="Gym Buddy" 
+               FontSize="32" 
+               FontFamily="PoppinsBold"
+               TextColor="{StaticResource PrimaryBlack}"
+               HorizontalOptions="Center"/>
+
+            <!-- Description -->
+            <Label Text="Your Personal Gym Scheduler"
+               FontSize="18"
+               FontFamily="PoppinsRegular"
+               TextColor="{StaticResource PrimaryBlack}"
+               HorizontalOptions="Center"/>
+
+            <!-- Start Button -->
+            <Button Text="Get Started" 
+                FontFamily="PoppinsBold"
+                Clicked="OnStartClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
