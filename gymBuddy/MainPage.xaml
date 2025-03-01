@@ -22,12 +22,12 @@
                HorizontalOptions="Center"/>
 
             <!-- Start Button -->
-            <Button Text="DD!" 
+            <Button Text="Hello!" 
                 FontFamily="PoppinsBold"
                 Clicked="OnStartClicked"/>
 
             <!-- Start Button -->
-            <Button Text="HH!" 
+            <Button Text="Duoble" 
                 FontFamily="PoppinsBold"
                 Clicked="OnStartClicked"/>
 
