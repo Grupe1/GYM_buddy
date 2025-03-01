@@ -8,21 +8,26 @@
             Padding="30,0"
             Spacing="25">
             <!-- Title -->
-            <Label Text="Gym Buddy" 
+            <Label Text="GYM Buddy" 
                FontSize="32" 
                FontFamily="PoppinsBold"
-               TextColor="{StaticResource PrimaryBlack}"
+               TextColor="{StaticResource PrimaryWhite}"
                HorizontalOptions="Center"/>
 
             <!-- Description -->
             <Label Text="Your Personal Gym Scheduler"
                FontSize="18"
                FontFamily="PoppinsRegular"
-               TextColor="{StaticResource PrimaryBlack}"
+               TextColor="{StaticResource PrimaryBlue}"
                HorizontalOptions="Center"/>
 
             <!-- Start Button -->
             <Button Text="Press!" 
+                FontFamily="PoppinsBold"
+                Clicked="OnStartClicked"/>
+
+            <!-- Start Button -->
+            <Button Text="Double!" 
                 FontFamily="PoppinsBold"
                 Clicked="OnStartClicked"/>
         </VerticalStackLayout>
