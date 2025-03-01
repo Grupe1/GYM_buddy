@@ -27,7 +27,7 @@
                 Clicked="OnStartClicked"/>
 
             <!-- Start Button -->
-            <Button Text="Duoble" 
+            <Button Text="Labas" 
                 FontFamily="PoppinsBold"
                 Clicked="OnStartClicked"/>
 
