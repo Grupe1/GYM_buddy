@@ -30,6 +30,11 @@
             <Button Text="Double!" 
                 FontFamily="PoppinsBold"
                 Clicked="OnStartClicked"/>
+
+            <!-- Start Button -->
+            <Button Text="triple" 
+                FontFamily="PoppinsBold"
+                Clicked="OnStartClicked"/>
         </VerticalStackLayout>
     </ScrollView>
 
