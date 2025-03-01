@@ -31,7 +31,7 @@ cd gymBuddy
 After cloning, always **fetch and pull** the latest updates:
 ```
 git fetch origin
-git pull origin dev  # If working on the dev branch
+git pull origin aistis  # If working on the aistis branch
 ```
 
 ### Set Up a New Branch
