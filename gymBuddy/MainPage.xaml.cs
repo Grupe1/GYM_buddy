@@ -11,7 +11,7 @@
 
         private async void OnStartClicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Welcome!", "Let's set up your gym schedule!", "OK");
+            await DisplayAlert("Welcome!", "Let's set up your gym schedule!", "Just kinding..");
         }
     }
 
